@@ -1,0 +1,68 @@
+.production {
+    background-image: url("../../../public/images/section.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 75px 0;
+display: flex;  
+justify-content: center ;
+}
+
+.prod-card {
+  position: relative;
+  color: white;
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 350px;
+  width: 30%;
+}
+
+.prod-card span {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.prod-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.prod-card p {
+  font-size: 14px;
+  max-width: 90%;
+}
+
+
+
+/* Центральная карточка — красная */
+.prod-card.center {
+  background: #e60000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.prod-card.center h3 {
+  font-size: 22px;
+}
+
+.prod-card.center button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #e60000;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.prod-card.center button:hover {
+  background: #f5f5f5;
+}

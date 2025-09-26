@@ -1,0 +1,51 @@
+.banner {
+    background: url('../../../public/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.banner h1 {
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 36px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.banner p {
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner a {
+    background-color: #FF0000;
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
