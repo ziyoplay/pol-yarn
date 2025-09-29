@@ -1,0 +1,46 @@
+.map {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.map .left,
+.map .right {
+    width: 50%;
+}
+
+.map .right img {
+    width: 100%;
+}
+
+.map h3 {
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.map h3::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #ff0000;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.map p {
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}

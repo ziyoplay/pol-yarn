@@ -1,0 +1,112 @@
+.footer {
+    background-color: #1C1C1C;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 102%;
+    letter-spacing: 0px;
+    color: #FBFEFF;
+    text-align: center;
+}
+
+.footer form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.footer form input {
+    width: calc(50% - 15px);
+    height: 50px;
+    border: none;
+    padding: 0 20px;
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: white;
+    letter-spacing: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+
+}
+
+.footer button {
+    background-color: #FF0000;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.footer .top {
+    border-bottom: 1px solid #fff;
+}
+
+.footer .bottom {
+    padding: 40px 0 0;
+}
+
+.footer .tepa {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+
+.footer .right {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer .right p {
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.footer .right img {
+    background-color: #FFFFFF0D;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+.footer .right img:hover {
+    background-color: #FFFFFF;
+}
+
+.footer .past p{
+font-family: Avenir;
+font-weight: 400;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+text-align: center;
+margin-top: 30px;
+}

@@ -4,6 +4,10 @@ import Banner from './Banner'
 import Cards from './Cards'
 import Production from './producsion'
 import Products from './Products'
+import Partners from './Partners';  
+import Map from './Map'
+import Footer from './Footer'
+
 
 
 export const Homepage = () => {
@@ -14,6 +18,9 @@ export const Homepage = () => {
         <Cards/>
         <Production/>
         <Products/>
+        <Partners/>
+        <Map/>
+        <Footer/>
     </div>
   )
 }
