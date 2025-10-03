@@ -1,0 +1,80 @@
+.detail {
+    padding: 100px 0;
+}
+
+.detail h3 {
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.detail h3::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #ff0000;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+
+.detail .wrap {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.detail .left {
+    width: 50%;
+}
+
+.detail img {
+    width: 80%;
+}
+
+.detail h4 {
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.detail p {
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.detail .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.detail a {
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
